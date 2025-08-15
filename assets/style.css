@@ -1,0 +1,17 @@
+
+:root { color-scheme: light dark; }
+html.dark body { background-color: #0b1220; color: #e5e7eb; }
+.navlink { color: inherit; }
+.navlink:hover { text-decoration: underline; text-underline-offset: 4px; }
+.active { font-weight: 600; text-decoration: underline; text-underline-offset: 6px; }
+.card { padding: 1.25rem; border-radius: 0.75rem; border: 1px solid rgba(0,0,0,.08); background: white; }
+html.dark .card { background:#0f172a; border-color: rgba(255,255,255,.08); }
+.badge { display:inline-block; font-size:.75rem; padding:.125rem .5rem; border-radius:999px; border:1px solid rgba(0,0,0,.12); }
+html.dark .badge { border-color: rgba(255,255,255,.12); }
+.fade-in { animation: fadeIn .35s ease-out; }
+@keyframes fadeIn { from {opacity:.0; transform: translateY(6px);} to{opacity:1; transform:none;} }
+#commandPalette .item { display:flex; justify-content:space-between; align-items:center; padding:.6rem .75rem; border-radius:.75rem; cursor:pointer; }
+#commandPalette .item:hover { background: rgba(0,0,0,.06); }
+html.dark #commandPalette .item:hover { background: rgba(255,255,255,.06); }
+#toTop { position: fixed; right: 1rem; bottom: 1rem; display:none; }
+#toTop.show { display: inline-flex; }

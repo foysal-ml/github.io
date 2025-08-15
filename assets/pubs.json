@@ -1,0 +1,55 @@
+[
+  {
+    "year": 2025,
+    "title": "EGFR‑targeting phytochemicals for NSCLC via docking & QSAR",
+    "venue": "Journal of Molecular Structure",
+    "doi": "https://doi.org/10.1016/j.molstruc.2024.139924",
+    "topics": [
+      "docking",
+      "QSAR",
+      "oncology"
+    ]
+  },
+  {
+    "year": 2024,
+    "title": "Rue herb for SARS‑CoV‑2: in‑vitro & in‑silico evaluation",
+    "venue": "International Immunopharmacology",
+    "doi": "https://doi.org/10.1016/j.intimp.2024.113318",
+    "topics": [
+      "SARS‑CoV‑2",
+      "in‑vitro",
+      "in‑silico"
+    ]
+  },
+  {
+    "year": 2023,
+    "title": "SSBP3 ortholog impacts neurodevelopment and autism‑like behaviors",
+    "venue": "PLOS Biology",
+    "doi": "https://doi.org/10.1371/journal.pbio.3002210",
+    "topics": [
+      "neuro",
+      "autism",
+      "model organism"
+    ]
+  },
+  {
+    "year": 2023,
+    "title": "Multiepitope vaccine against Merkel cell polyomavirus",
+    "venue": "Frontiers in Immunology",
+    "doi": "https://doi.org/10.3389/fimmu.2023.1160260",
+    "topics": [
+      "vaccine",
+      "immunology"
+    ]
+  },
+  {
+    "year": 2021,
+    "title": "ACE2‑targeted natural antivirals against SARS‑CoV‑2",
+    "venue": "International Journal of Biological Macromolecules",
+    "doi": "https://doi.org/10.1016/j.ijbiomac.2021.09.146",
+    "topics": [
+      "SARS‑CoV‑2",
+      "ACE2"
+    ]
+  }
+]

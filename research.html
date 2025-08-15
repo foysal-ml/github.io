@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Research • Foysal Ahammad</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio of Foysal Ahammad — computational & structural biology, multi‑omics, protein/drug design, and AI for precision medicine." />
+  <meta property="og:title" content="Foysal Ahammad — Academic Portfolio" />
+  <meta property="og:description" content="Computational & structural biology • Multi‑omics • Protein/drug design • AI for precision medicine" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="assets/favicon.svg">
+  <script>
+    window.tailwind = { config: { darkMode: 'class' } };
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/style.css">
+  <script defer src="assets/script.js"></script>
+</head>
+<body class="bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100">
+  
+  <div class="sticky top-0 z-50 border-b bg-white/80 backdrop-blur dark:bg-slate-900/80">
+    <div class="max-w-6xl mx-auto h-14 px-4 flex items-center justify-between">
+      <a href="index.html" class="font-semibold tracking-tight">Foysal Ahammad</a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="about.html" class="navlink">About</a>
+        <a href="stanford-fit.html" class="navlink">Stanford Fit</a>
+        <a href="research.html" class="navlink">Research</a>
+        <a href="publications.html" class="navlink">Publications</a>
+        <a href="teaching.html" class="navlink">Teaching</a>
+        <a href="awards.html" class="navlink">Awards</a>
+        <a href="news.html" class="navlink">News</a>
+        <a href="contact.html" class="navlink">Contact</a>
+      </nav>
+      <div class="flex items-center gap-2">
+        <button id="openCmd" class="px-3 py-1.5 rounded-lg border text-sm hover:bg-slate-50 dark:hover:bg-slate-800">Search ⌘/Ctrl+K</button>
+        <a href="assets/Foysal-CV.pdf" class="px-3 py-1.5 rounded-lg border text-sm hover:bg-slate-50 dark:hover:bg-slate-800">Download CV</a>
+        <button id="themeToggle" class="px-3 py-1.5 rounded-lg border text-sm hover:bg-slate-50 dark:hover:bg-slate-800" aria-label="Toggle theme">🌙</button>
+      </div>
+    </div>
+    <div class="h-[2px] w-full bg-gradient-to-r from-[#8C1515] via-[#A31F34] to-cyan-400"></div>
+  </div>
+
+  <div id="commandPalette" class="fixed inset-0 z-[60] hidden">
+    <div class="absolute inset-0 bg-black/40" data-cmd-close></div>
+    <div class="absolute inset-0 grid place-items-center p-4">
+      <div class="w-full max-w-xl rounded-xl bg-white dark:bg-slate-900 border shadow-xl">
+        <div class="px-4 pt-3 pb-2 border-b">
+          <input id="cmdInput" type="text" placeholder="Type to search pages…" class="w-full bg-transparent outline-none py-2" />
+        </div>
+        <ul id="cmdList" class="max-h-72 overflow-auto p-1"></ul>
+      </div>
+    </div>
+  </div>
+
+  <main class="fade-in">
+  <section class="px-4">
+    <div class="max-w-6xl mx-auto">
+      <h1 class="text-2xl font-semibold tracking-tight">Research Areas</h1>
+      <div class="mt-4 grid md:grid-cols-3 gap-6">
+        <div class="card hover:shadow"><h3 class="font-medium">Sequence → Structure → Function</h3><p class="mt-1 text-sm text-slate-700 dark:text-slate-300">Self‑supervised embeddings, AlphaFold/ESM ensembles, assay‑conditioned predictors with uncertainty.</p></div>
+        <div class="card hover:shadow"><h3 class="font-medium">Closed‑Loop Design</h3><p class="mt-1 text-sm text-slate-700 dark:text-slate-300">RFdiffusion/ProteinMPNN proposals + physics filters + active learning.</p></div>
+        <div class="card hover:shadow"><h3 class="font-medium">Translational Multi‑omics</h3><p class="mt-1 text-sm text-slate-700 dark:text-slate-300">WES, RNA‑seq, DNAm, scRNA‑seq; network pharmacology; precision modeling.</p></div>
+      </div>
+    </div>
+  </section>
+</main>
+  
+  <footer class="mt-16 border-t">
+    <div class="max-w-6xl mx-auto px-4 py-8 text-sm text-slate-600 dark:text-slate-400 flex flex-col md:flex-row items-center justify-between gap-4">
+      <p>© <span id="year"></span> Foysal Ahammad • Last updated <span id="lastUpdated"></span></p>
+      <div class="flex items-center gap-3">
+        <a class="hover:underline" href="https://scholar.google.com/">Scholar</a>
+        <a class="hover:underline" href="https://www.linkedin.com/in/foysalgebt/">LinkedIn</a>
+        <a class="hover:underline" href="https://orcid.org/0000-0001-7313-4729">ORCID</a>
+      </div>
+    </div>
+  </footer>
+
+  <button id="toTop" class="px-3 py-1.5 rounded-full border bg-white/90 dark:bg-slate-900/90">↑ Top</button>
+</body>
+</html>
